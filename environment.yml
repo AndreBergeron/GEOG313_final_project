@@ -1,0 +1,26 @@
+name: finalprojectenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab = 4.4.4
+  - matplotlib
+  - dask=2025.10.0
+  - dask-labextension
+  - distributed=2025.10.0
+  - rioxarray=0.16.0
+  - shapely=2.0.4
+  - xarray=2024.10.0
+  - numpy
+  - pandas
+  - scipy
+  - geopandas=1.0.1
+  - geodatasets=2024.8.0
+  - cartopy=0.22.0
+  - ipywidgets=8.1.8
+  - netcdf4
+  - pydap
+  - h5netcdf
+  - boto3
+  - xskillscore
+  - hvplot
